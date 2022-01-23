@@ -3,3 +3,25 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+
+/* Font Colors */
+.container-text{
+    color: #231D4F;
+}
+.regular-text{
+    color: #848199;
+}
+.fas{
+    color: #5243C2;
+}
+.special-check> p> i{
+    color: #FFFFFF;
+}
+
+/* Package Styles */
+.border-pack{
+    border-radius: 26px;
+}
+.badge-margin{
+    margin-left: 100px;
+}
