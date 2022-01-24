@@ -125,9 +125,18 @@
             </div>
         </section>
 
+        <!-- Toast Section -->
+        <div class="toast show border-0 position-absolute top-100 end-0 me-2" role="alert" aria-live="assertive" aria-atomic="true">
+          <div class="toast-header toast-style">
+            <img src="icons/Vector.svg" class="me-2" alt="...">
+            <strong class="me-auto">20% off on next booking</strong>
+            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+          </div>
+        </div>
+
         <!-- Package Section -->
-        <section class="container pb-5">
-            <h3 class="fw-bold text-center">Our Package</h3>
+        <h3 class="fw-bold text-center pt-4">Our Package</h3>
+        <section class="container pb-5 pt-3">
             <div class="row">
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
                     <div class="col">
@@ -168,7 +177,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="col">
+                    <div class="col hot-pack">
                         <div class="card h-100 border-0 shadow bg-primary border-pack">
                           <div class="card-body py-5 px-4">
                               <!-- Badge Start -->
@@ -217,8 +226,8 @@
         </section>
 
         <!-- Review Section -->
-        <section class="container pb-5 pt-5">
-            <h3 class="fw-bold text-center">Happy Clients Says</h3>
+        <h3 class="fw-bold text-center pt-4">Happy Clients Says</h3>
+        <section class="container pb-5">
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 pt-4">
                 <div class="col">
                   <div class="card h-100 px-5 py-3 border-0 shadow rounded">
@@ -254,10 +263,73 @@
 
         </section>
 
+        <!-- FAQ Section -->
+        <h3 class="fw-bold text-center pt-4">Frequently Asked Questions</h3>
+        <section class="container pb-5">
+          <div class="row pt-3">
+            <!-- Accordion Start -->
+            <div class="col-lg-6">
+              <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                      What's the difference between event design and event planning?
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                    <div class="accordion-body">
+                      Event design and event planning work hand in hand to deliver a successful event.Events by Knight offer tailor made events. This means we incorporate both event design and event planning to create that perfect event.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Accordion End -->
+            <div class="col-lg-6">
+              <img class="pt-4 w-100" src="images/people.png" alt="">
+            </div>
+          </div>
+        </section>
+
+        <!-- Contact Form -->
+        <h3 class="fw-bold text-center pt-4">Contact Us</h3>
+        <section class="container pt-5 pb-5">
+          <div class="row d-flex align-items-center">
+            <div class="col-lg-6 col-md-6 col-sm-12 text-center">
+              <img class="w-75" src="images/contact.png" alt="">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 pt-5">
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingPassword" placeholder="Place your name">
+                <label for="floatingPassword">Your Name</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Your Email</label>
+              </div>
+              <div class="form-floating mb-3">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                <label for="floatingTextarea">Write Your Comments</label>
+              </div>
+              <div class="d-grid gap-2">
+                <button class="btn btn-primary text-white rounded-pill py-2 fw-bold">Submit</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
     </main>
 
-    <footer>
-
+    <!-- Footer Section -->
+    <footer class="footer-style">
+      <section class="container d-flex align-items-center justify-content-between">
+        <h6 class="text-white">© 2022 GridEvents Convention All rights reserved</h6>
+        <div>
+          <h6 class="text-white">Get the App</h6>
+          <img src="icons/app-store.png" alt=""> <br>
+          <img class="pt-3" src="icons/play-store.png" alt="">
+        </div>
+      </section>
     </footer>
 
     <!-- Bootstrap CDN JS -->

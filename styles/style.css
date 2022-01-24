@@ -18,10 +18,28 @@ body{
     color: #FFFFFF;
 }
 
+/* Toast Style */
+.toast-style{
+    border-left: 8px solid #3F87F5;
+}
+
 /* Package Styles */
 .border-pack{
     border-radius: 26px;
 }
 .badge-margin{
     margin-left: 100px;
+}
+.hot-pack{
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+
+/* Accordion Style */
+
+
+/* Footer Styles */
+.footer-style{
+    background-color: #0B0D17;
+    padding: 70px 0 70px 0;
 }
