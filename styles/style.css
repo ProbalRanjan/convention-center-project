@@ -4,6 +4,13 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+/* Media Query */
+@media only screen and (min-width:675px) {
+    .slider-img{
+        width: 100%;
+    }
+}
+
 /* Font Colors */
 .container-text{
     color: #231D4F;
@@ -36,7 +43,9 @@ body{
 }
 
 /* Accordion Style */
-
+.accordion-button{
+    background-color: transparent !important;
+}
 
 /* Footer Styles */
 .footer-style{
