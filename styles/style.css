@@ -4,25 +4,41 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-/* Media Query */
+/* -------------------
+    Media Query 
+------------------ */
 @media only screen and (min-width:675px) {
     .slider-img{
         width: 100%;
     }
 }
+@media only screen and (min-width: 1200px){
+    .popular-pack-margin{
+        margin-top: -30px;
+    }
+}
+
 
 /* Font Colors */
-.container-text{
+.white-btn-text{
+    color: #3F87F5;
+}
+.section-title{
     color: #231D4F;
 }
-.regular-text{
+.list-text{
     color: #848199;
 }
-.fas{
+.fa-check-circle{
     color: #5243C2;
 }
-.special-check> p> i{
+.highlight-pack> p> i{
     color: #FFFFFF;
+}
+
+/* Button Styles */
+.blue-btn{
+    background-color: #3F87F5;
 }
 
 /* Toast Style */
@@ -31,15 +47,17 @@ body{
 }
 
 /* Package Styles */
-.border-pack{
+.popular-pack-bg{
+    background-color: #3F87F5;
+}
+.package-border{
     border-radius: 26px;
 }
-.badge-margin{
-    margin-left: 100px;
+.popular-pack-badge{
+    background-color: #FF4E4E;
 }
-.hot-pack{
-    margin-top: -10px;
-    margin-bottom: 30px;
+.badge-margin{
+    margin-left: 90px;
 }
 
 /* Accordion Style */
